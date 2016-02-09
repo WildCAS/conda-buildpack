@@ -1,4 +1,4 @@
-Conda Buildpack
+Conda Buildpack fork
 ===============
 
 This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) for [Conda](http://conda.pydata.org/), the Python distribution for scientific computing by Continuum Analytics.
@@ -61,10 +61,10 @@ $ git push heroku master
         six-1.6.1-py27 100% |###############################| Time: 0:00:00  12.54 MB/s00  B/s
 ```
 
-You can also add it to upcoming builds of an existing application:
+You can also add it to upcoming builds of an existing application (please see fork origin for original):
 
 ```console
-$ heroku config:add BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git
+$ heroku config:add BUILDPACK_URL=https://github.com/kevinlee12/conda-buildpack.git
 ```
 
 
